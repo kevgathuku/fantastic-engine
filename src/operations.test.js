@@ -18,7 +18,7 @@ describe("removeLocationHash", () => {
   const defaultHash = "#home";
   beforeEach(() => {
     // ensure we have a hash to begin with for each test
-    // this is a global and may change between tests
+    // window.location is a global and may change between tests
     window.location.hash = defaultHash;
   });
 

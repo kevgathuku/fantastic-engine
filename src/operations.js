@@ -16,7 +16,7 @@ export const windowRedirect = (
 ) => {
   // location.assign looks like the best option to use for a redirect
   // it preserves the previous history entry, unlike location.replace
-  // and it's better to test rather than just setting the url directly
+  // and it's easier to test rather than just setting the url directly
   //  i.e. window.location.href= ""
   window.location.assign(redirectURL);
 };

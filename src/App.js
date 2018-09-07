@@ -35,7 +35,7 @@ class App extends Component {
         </div>
         <div className="large-text">
           <p> Click below to redirect to the Jest website </p>
-          <button onClick={this.onClickRedirect}>Let's go</button>
+          <button onClick={this.onClickRedirect}>{"Let's go"}</button>
         </div>
       </div>
     );
